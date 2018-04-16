@@ -1,0 +1,5 @@
+Write your own String class using chr* as member that would support the following
+1.	Assignment
+2.	Compare 
+3.	Concatenate 
+Condition: Should NOT use in-built library fns like strcmp, strcat etc
