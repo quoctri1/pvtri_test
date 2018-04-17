@@ -1,0 +1,110 @@
+
+p {
+	text-align: justify;
+	margin-top: 23px;
+}
+
+.row {
+	margin: 0px;
+}
+
+.menu-tab {
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+
+.menu-tab li{
+	float: left;
+}
+
+.menu-tab  a {
+	text-decoration: none;
+	list-style: none;
+	background: #c0c0c0;
+	color: white;
+	padding: 20px 45px;
+	
+}
+
+.menu-tab a:hover {
+	background: black;
+}
+
+.menu-tab ul {
+	list-style: none;
+}
+
+.row {
+	margin-left: 23px;
+}
+
+.row .col-sm-4 a {
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.thucuong .img {
+	width: 250px;
+	height: 250px;
+	padding-left: 50px;
+}
+
+.khaivi .img {
+	width: 250px;
+	height: 250px;
+	padding-left: 50px;
+}
+
+
+.lau .img {
+	width: 250px;
+	height: 250px;
+	padding-left: 50px;
+}
+
+.ca .img {
+	width: 250px;
+	height: 250px;
+	padding-left: 50px;
+}
+
+.oc .img {
+	width: 250px;
+	height: 250px;
+	padding-left: 50px;
+}
+
+.bo .img {
+	width: 250px;
+	height: 250px;
+	padding-left: 50px;
+}
+
+.ech .img {
+	width: 250px;
+	height: 250px;
+	padding-left: 50px;
+}
+
+.de .img {
+	width: 250px;
+	height: 250px;
+	padding-left: 50px;
+}
+
+.heo .img {
+	width: 250px;
+	height: 250px;
+	padding-left: 50px;
+}
+
+.ga .img {
+	width: 250px;
+	height: 250px;
+	padding-left: 50px;
+}
+
+
+
+
+

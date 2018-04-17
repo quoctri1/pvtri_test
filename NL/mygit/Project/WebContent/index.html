@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>The Restaurant</title>
+
+	<link rel="stylesheet"
+		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+	<!-- Navigation  -->
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" onClick= clickTrangchu() href="#">The Restaurant</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a href="#">Trang chu</a></li>
+				<li><a href="menu.html">Thuc don</a></li>
+				<li><a href="#">Dat ban</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<p class="lienhe glyphicon glyphicon-earphone"> 1800-456364</p>
+				</li>	
+				<li data-toggle="modal" data-target="#myModal"><a href="#"><span
+						class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+				<li data-toggle="modal" data-target="#myModal1"><a href="#"><span
+						class="glyphicon glyphicon-log-in"></span> Login</a></li>
+			</ul>
+		</div>
+	</nav>
+
+
+	<!-- Carousel -->
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+
+			<div class="item active">
+				<img src="img/img_chania.jpg" alt="Chania" width="300" height="100">
+				<div class="carousel-caption">
+					<h3>Chania</h3>
+					<p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="img/img_chania2.jpg" alt="Chania" width="300" height="100">
+				<div class="carousel-caption">
+					<h3>Chania</h3>
+					<p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="img/img_flower.jpg" alt="Flower" width="300" height="100">
+				<div class="carousel-caption">
+					<h3>Flowers</h3>
+					<p>Beautiful flowers in Kolymbari, Crete.</p>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="img/img_flower2.jpg" alt="Flower" width="300" height="100">
+				<div class="carousel-caption">
+					<h3>Flowers</h3>
+					<p>Beautiful flowers in Kolymbari, Crete.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex='-1' role="dialog">
+		<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Sign Up</h4>
+				</div>
+				<div class="modal-body">
+					<p>Some text in the modal.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default">OK</button>
+					<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<form action="Login" method="post">
+	<div class="modal fade" id="myModal1" tabindex='-1' role="dialog">
+		<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Login</h4>
+				</div>
+				<div class="modal-body">
+					
+						<div class="form-group">
+							<label for="exampleInputEmail1">User name</label> 
+							<input name="username"
+								 class="form-control" placeholder="Enter email" autofocus>
+						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword1">Password</label> <input name="password"
+								type="password" class="form-control" id="exampleInputPassword1"
+								placeholder="Password">
+						</div>
+						<input type="submit" class="btn btn-default" value="Ok">
+						<a type="button" class="btn btn-default" data-dismiss="modal">Cancel</a>
+					
+				</div>
+				
+				<!-- 	<div class="modal-footer">
+					<form action="Login" method="post">
+						<input type="submit" class="btn btn-default" value="Ok">
+					</form>
+						<a type="button" class="btn btn-default" data-dismiss="modal">Cancel</a>
+					</div> -->
+			</div>
+		</div>
+	</div>
+	</form>
+
+
+	<script>
+		function clickButton (){
+			window.location = "menu.html"
+		}
+		
+		
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
