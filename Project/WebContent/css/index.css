@@ -1,0 +1,19 @@
+/* Navigation  */
+.navbar {
+	margin:0px;
+}
+
+.navbar-right .lienhe{
+	color: #c0c0c0;
+	font-size: 15px;
+	padding: 14px 0px;
+}
+
+
+/* Carousel  */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 58%;
+    margin-left: 300px;
+}
+

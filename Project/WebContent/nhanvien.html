@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/nhanvien.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<!-- Navigation  -->
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" onClick=clickTrangchu() href="#">The
+					Restaurant</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a href="#">Trang chu</a></li>
+				<li><a href="menu.html">Thuc don</a></li>
+				<li><a href="#">Dat ban</a></li>
+				<li><a href="#">Lien he</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<p class="lienhe glyphicon glyphicon-earphone">1800-456364</p>
+				</li>
+				<li data-toggle="modal" data-target="#myModal"><a href="#"><span
+						class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+				<li data-toggle="modal" data-target="#myModal1"><a href="#"><span
+						class="glyphicon glyphicon-log-in"></span> Login</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<h1 style="text-align: center;">Ho So nhan vien</h1>
+	
+	
+	<div class="container">
+		<div class="form-inline" >
+			<button class="btn btn-default btnst" data-toggle="modal"
+				data-target="#themnhanvien">Them nhan vien</button>
+			<input type="text" class="form-control input-lg" placeholder="Search">
+			<button class="btn btn-info btn-lg glyphicon glyphicon-search" type="button">
+			</button>
+		</div>
+	</div>
+
+
+	<!-- Modal -->
+	<div class="modal fade" id="themnhanvien" tabindex='-1'>
+		<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Them nhan vien</h4>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Ho Ten</label> 
+							<input type="email" class="form-control" placeholder="Name" autofocus>
+						</div>
+						<div style="margin-bottom:10px;">
+							<label for="exampleInputEmail1">Vi tri</label>
+							<select class="form-control">
+								<option>Quan ly</option>
+								<option>Nhan vien<option>
+							</select>
+						</div>
+						
+						<div class="form-group">
+							<label for="exampleInputPassword1">Dien thoai</label> <input
+								type="password" class="form-control" id="exampleInputPassword1"
+								placeholder="Phone">
+						</div>
+						
+						<div class="form-group">
+							<label for="exampleInputPassword1">Email</label> <input
+								type="password" class="form-control" id="exampleInputPassword1"
+								placeholder="Email">
+						</div>
+						
+						<div class="form-group">
+							<label for="exampleInputPassword1">Ngay bat dau</label> <input
+								type="password" class="form-control" id="exampleInputPassword1"
+								placeholder="Date">
+						</div>
+						
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default">OK</button>
+					<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="table1">
+		<table class="table">
+			<thead>
+				<tr>
+					<th>STT</th>
+					<th>Ho Ten</th>
+					<th>Vi Tri</th>
+					<th>Dien thoai</th>
+					<th>Email</th>
+					<th>Ngay bat dau</th>
+					<th>Tuy chinh</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Quoc Tri</td>
+					<td>Quan ly</td>
+					<td>01689881534</td>
+					<td>phqtri@gmail.com</td>
+					<td>15/04/2017</td>
+					<td>
+						<button>
+							<i class="glyphicon glyphicon-file"></i>
+						</button>
+						<button>
+							<i class="glyphicon glyphicon-trash"></i>
+						</button>
+					</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Khuong Duy</td>
+					<td>Nhan vien</td>
+					<td>01689881534</td>
+					<td>mary@example.com</td>
+					<td>14/02/2017</td>
+					<td>
+						<button>
+							<i class="glyphicon glyphicon-file"></i>
+						</button>
+						<button>
+							<i class="glyphicon glyphicon-trash"></i>
+						</button>
+					</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Nhut Tan</td>
+					<td>Nhan vien</td>
+					<td>01689881534</td>
+					<td>july@example.com</td>
+					<td>14/02/2017</td>
+					<td>
+						<button>
+							<i class="glyphicon glyphicon-file"></i>
+						</button>
+						<button>
+							<i class="glyphicon glyphicon-trash"></i>
+						</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+
+
+</body>
+</html>

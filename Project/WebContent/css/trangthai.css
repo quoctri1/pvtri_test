@@ -1,0 +1,46 @@
+@CHARSET "ISO-8859-1";
+
+.navbar-right .lienhe{
+	color: white;
+	font-size: 15px;
+	padding: 14px 0px;
+}
+
+.container .row .col-sm-3 .bantrong{
+	width: 100px;
+	height: 30px;
+	background-color: green;
+}
+
+.container .row .col-sm-3 .bandat{
+	width: 100px;
+	height: 30px;
+	background-color: yellow;
+}
+
+.container .row .col-sm-3 .bandung{
+	width: 150px;
+	height: 30px;
+	background-color: red;
+}
+
+
+.row .col-sm-6 {
+	margin-top: 20px;
+}
+
+.row .col-sm-6 button{
+	padding: 15px 35px;
+	margin: 20px 20px;
+	margin-top: 10px;
+}
+
+.row {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.row .col-sm-6 .tinhtien {
+	padding: 10px 200px;
+}

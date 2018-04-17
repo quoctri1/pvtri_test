@@ -1,0 +1,22 @@
+@CHARSET "ISO-8859-1";
+
+.navbar-right .lienhe{
+	color: #c0c0c0;
+	font-size: 15px;
+	padding: 14px 0px;
+}
+
+.btnst {
+	margin: 50px;
+	width: 150px;
+	height: 50px;
+}
+
+.form-inline input[type="text"] {
+	width: 800px;
+}
+
+.table1 {
+	margin-left: 70px;
+	margin-right: 100px;
+}
