@@ -1,0 +1,29 @@
+@CHARSET "ISO-8859-1";
+
+.yourname {
+	padding-bottom: 20px;
+}
+
+.choosetime {
+	padding-bottom: 20px;
+}
+
+.person {
+	padding-bottom: 20px;
+}
+
+input[type="text"]{ 
+	padding: 25px; 
+	line-height: 30px;
+}
+
+.form-group .btnok{
+	margin-left: 310px;
+	margin-top:	50px;
+	padding: 20px 40px;
+}
+
+.form-group .btncal {
+	margin-top: 50px;
+	padding: 20px 40px;
+}
