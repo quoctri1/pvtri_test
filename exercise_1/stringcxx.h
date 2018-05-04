@@ -1,4 +1,5 @@
-#include <stdio.h>
+#ifndef string
+# define string 1
 
 char *ass(char *c){
 	char *b;
@@ -47,3 +48,6 @@ char *concen(char *str, char *str1){
 	
 	return strp;
 }
+
+
+#endif
